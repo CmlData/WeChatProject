@@ -161,55 +161,58 @@ page {
   padding-left: 20rpx;
 }
 
+/* 产品推荐 */
+
+.img-box {
+    margin-top: 20rpx;
+    margin-left: 1%;
+  }
+  
+  .img-box .img {
+    position: relative;
+    width: 328rpx;
+    height: 194rpx;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .img-box .img:nth-of-type(2n) {
+    margin-left: 14rpx;
+  }
+  
+  .img-box .img:nth-of-type(n+3) {
+    margin-top: 14rpx;
+  }
+  
+  .img-box image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .img-box text {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 28rpx;
+    box-sizing: border-box;
+    height: 48rpx;
+    line-height: 48rpx;
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 26rpx;
+  }
+
 /*轮番*/
 
-.slide-image .image-wrapper {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
 
-.slide-image .image-wrapper view {
-  width: 33.33%;
-  text-align: center;
-}
-
-.slide-image .image-wrapper image {
-  width: 210rpx;
-  height: 158rpx;
-  border-radius: 10rpx;
-}
-.slide-image .image-wrapper text {
-  display: block;
-  width: 100%;
-   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  margin-top: 26rpx;
-  font-size: 26rpx;
-  color: #948475;
-  font-weight: bold;
-}
-
-.slide .tag {
-  display: flex;
-  padding: 34rpx 0 24rpx;
-  justify-content: space-between;
-}
-
-.slide .tag text {
-  height: 60rpx;
-  line-height: 60rpx;
-  padding: 0 36rpx;
-  border: 1px solid #eee5da;
-  border-radius: 10rpx;
-  font-size: 22rpx;
-  color: #bbb4af;
-}
 
 .hot-view {
-  margin-top: 20rpx;
+  margin-top: 30rpx;
   background: #fff;
+  float: left;
+  margin-left: 13.5%;
 }
 
 .hot-view .tab {
@@ -219,22 +222,16 @@ page {
   line-height: 88rpx;
   border-bottom: 1px solid #edeadd;
   margin-bottom: 20rpx;
-}
-
-.hot-view .tab view {
-  flex: 1 1 auto;
-  text-align: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
+  width: 85%;
 }
 
 .hot-view .tab text {
-  width: 172rpx;
+  width: 272rpx;
   height: 100%;
   font-weight: bold;
   color: #666;
   font-size: 26rpx;
+  text-align: center;
 }
 
 .hot-view .tab .active {
@@ -243,12 +240,46 @@ page {
   box-sizing: border-box;
 }
 
-.fill {
-  height: 26rpx;
+.fill {  height: 26rpx;
   width: 100%;
   background: #fff;
 }
 /*动画*/
 .animationData{
   opacity: 0;
+}
+
+.flex6-clz {
+    margin-left: -70rpx;
+	border-bottom-left-radius: 12rpx;
+	box-shadow: 0rpx 2rpx 6rpx 3px rgba(111, 111, 111, 0.18);
+	z-index: 1000;
+	overflow: hidden;
+	width: calc(110% - 16rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 16rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 16rpx;
+    margin-right: 16rpx;
+}
+
+.image3-clz {
+	margin-left: 10rpx;
+	border-bottom-left-radius: 12rpx;
+	overflow: hidden;
+	width: calc(33.3333333333% - 10rpx - 10rpx) !important;
+	border-top-left-radius: 12rpx;
+	margin-top: 10rpx;
+	border-top-right-radius: 12rpx;
+	border-bottom-right-radius: 12rpx;
+	margin-bottom: 10rpx;
+	margin-right: 10rpx;
+}
+.flex9-clz {
+	padding-top: 0rpx;
+	z-index: 1000;
+	padding-left: 10rpx;
+	padding-bottom: 0rpx;
+	padding-right: 10rpx;
 }

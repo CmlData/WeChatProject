@@ -2,7 +2,7 @@
 <!--pages/destination/destination.wxml-->
 <view class="top">
   <view class="img">
-    <image src="/images/destination/bg.jpg" mode="aspectFill"></image>
+    <image src="/static/showPhoto/2.jpg" mode="aspectFill"></image>
   </view>
   <view class="pos"></view>
   <view class="search">
@@ -49,7 +49,7 @@
 					<view class="diygw-col-0 text4-clz"> 199元 </view>
 					<view class="diygw-col-0 text5-clz"> 原价999 </view>
 				</view>
-				<view class="diygw-col-0 text9-clz"> 一键购买 </view>
+				<view class="diygw-col-0 text9-clz"> 了解更多 </view>
 			</view>
 			<view class="flex diygw-col-24 flex-nowrap flex5-clz">
 				<view class="diygw-col-0 text7-clz"> 研学套餐 </view>
@@ -66,7 +66,7 @@
 					<view class="diygw-col-0 text1-clz"> 199元 </view>
 					<view class="diygw-col-0 text5-clz"> 原价999 </view>
 				</view>
-				<view class="diygw-col-0 text6-clz"> 一键购买 </view>
+				<view class="diygw-col-0 text6-clz"> 了解更多 </view>
 			</view>
 			<view class="flex diygw-col-24 flex-nowrap flex9-clz">
 				<view class="diygw-col-0 text10-clz"> 研学套餐 </view>
@@ -83,7 +83,7 @@
 					<view class="diygw-col-0 text13-clz"> 199元 </view>
 					<view class="diygw-col-0 text5-clz"> 原价999 </view>
 				</view>
-				<view class="diygw-col-0 text15-clz"> 一键购买 </view>
+				<view class="diygw-col-0 text15-clz"> 了解更多 </view>
 			</view>
 			<view class="flex diygw-col-24 flex-nowrap flex14-clz">
 				<view class="diygw-col-0 text16-clz"> 研学套餐 </view>
@@ -91,6 +91,6 @@
 			</view>
 		</view>
 	</view>
-	<view class="clearfix"></view>
     <view class="diygw-col-24 text18-clz"> 了解更多 >>> </view>
+    <view class="clearfix"></view>
 </view>

@@ -1,5 +1,4 @@
-
-<!--pages/find/find.wxml-->
+<!-- pages/find/find.wxml -->
 <!-- <view class="tab">
   <text class="{{active==0?'active':''}}" bindtap="hotClick">热门</text>
   <text class="{{active==1?'active':''}}" bindtap="aroundClick">周边</text>
@@ -27,3 +26,7 @@
     </view>
   </view>
 </view> -->
+<view class="pic">
+    <image src="https://www.wqdnb.com/static/Teams.jpg"></image>
+</view>
+    

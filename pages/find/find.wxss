@@ -60,3 +60,13 @@ margin-top: 12rpx;
     
 
 } */
+
+.pic {
+    height: auto;
+    overflow: hidden;
+}
+
+.pic image {
+    width: 100%;
+    height: 1779px;
+}

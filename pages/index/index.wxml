@@ -1,4 +1,3 @@
-
 <!--index.wxml-->
 <import src="view-list-template/view-list.wxml" />
 <!-- <view class="home">
@@ -7,114 +6,163 @@
   </view>
 </view> -->
 <view class="container">
-	<view class="flex diygw-col-24 swiper-clz">
-		<swiper :current="swiperIndex" class="swiper swiper-indicator_rect_radius" bindchange="changeSwiper" previous-margin="50rpx" next-margin="50rpx" indicator-color="rgba(51, 51, 51, 0.39)" indicator-active-color="#fff" indicator-dots="true" autoplay interval="3000" circular="true" style="height: 300rpx">
-			<swiper-item class="diygw-swiper-item">
-				<view class="diygw-swiper-item-wrap {{swiperIndex != 0?'swiper-scale':''}}">
-					<image src="/static/showPhoto/1.jpg" class="diygw-swiper-image"></image>
-				</view>
-			</swiper-item>
-			<swiper-item class="diygw-swiper-item">
-				<view class="diygw-swiper-item-wrap {{swiperIndex != 1?'swiper-scale':''}}">
-					<image src="/static/showPhoto/2.jpg" class="diygw-swiper-image"></image>
-				</view>
-			</swiper-item>
-			<swiper-item class="diygw-swiper-item">
-				<view class="diygw-swiper-item-wrap {{swiperIndex != 2?'swiper-scale':''}}">
-					<image src="/static/showPhoto/3.jpg" class="diygw-swiper-image"></image>
-				</view>
-			</swiper-item>
+    <view class="flex diygw-col-24 swiper-clz">
+        <swiper :current="swiperIndex" class="swiper swiper-indicator_rect_radius" bindchange="changeSwiper" previous-margin="50rpx" next-margin="50rpx" indicator-color="rgba(51, 51, 51, 0.39)" indicator-active-color="#fff" indicator-dots="true" autoplay interval="3000" circular="true" style="height: 300rpx">
             <swiper-item class="diygw-swiper-item">
-				<view class="diygw-swiper-item-wrap {{swiperIndex != 3?'swiper-scale':''}}">
-					<image src="/static/showPhoto/4.jpg" class="diygw-swiper-image"></image>
-				</view>
-			</swiper-item>
+                <view class="diygw-swiper-item-wrap {{swiperIndex != 0?'swiper-scale':''}}">
+                    <image src="/static/showPhoto/1.jpg" class="diygw-swiper-image"></image>
+                </view>
+            </swiper-item>
             <swiper-item class="diygw-swiper-item">
-				<view class="diygw-swiper-item-wrap {{swiperIndex != 4?'swiper-scale':''}}">
-					<image src="/static/showPhoto/5.jpg" class="diygw-swiper-image"></image>
-				</view>
-			</swiper-item>
-		</swiper>
-	</view>
-  <!--<view class="category">
-    <view class="view box" bindtap="enterViewList">
-      <image src="/images/home/view.png"></image>
-      <view class="icon">
-        <view>
-          <text></text>
+                <view class="diygw-swiper-item-wrap {{swiperIndex != 1?'swiper-scale':''}}">
+                    <image src="/static/showPhoto/2.jpg" class="diygw-swiper-image"></image>
+                </view>
+            </swiper-item>
+            <swiper-item class="diygw-swiper-item">
+                <view class="diygw-swiper-item-wrap {{swiperIndex != 2?'swiper-scale':''}}">
+                    <image src="/static/showPhoto/3.jpg" class="diygw-swiper-image"></image>
+                </view>
+            </swiper-item>
+            <swiper-item class="diygw-swiper-item">
+                <view class="diygw-swiper-item-wrap {{swiperIndex != 3?'swiper-scale':''}}">
+                    <image src="/static/showPhoto/4.jpg" class="diygw-swiper-image"></image>
+                </view>
+            </swiper-item>
+            <swiper-item class="diygw-swiper-item">
+                <view class="diygw-swiper-item-wrap {{swiperIndex != 4?'swiper-scale':''}}">
+                    <image src="/static/showPhoto/5.jpg" class="diygw-swiper-image"></image>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="slide">
+        <view class="title">
+            <text>产品推荐 </text>
+            <text>精选推荐研学产品、研学开发</text>
         </view>
-      </view>
-      <text class="title">景点</text>
-    </view>
-    <view class="view box">
-      <image src="/images/home/ticket.png"></image>
-      <view class="icon">
-        <view>
-          <text></text>
-        </view>
-      </view>
-      <text class="title">门票</text>
-    </view>
-    <view class="view box">
-      <image src="/images/home/hotel.png"></image>
-      <view class="icon">
-        <view>
-          <text></text>
-        </view>
-      </view>
-      <text class="title">酒店</text>
-    </view>
-    <view class="view box">
-      <image src="/images/home/food.png"></image>
-      <view class="icon">
-        <view>
-          <text></text>
-        </view>
-      </view>
-      <text class="title">美食</text>
-    </view>
-  </view>-->
-
-  <!--目的地推荐-->
-  <view class="slide">
-    <view class="title">
-      <text>产品推荐 </text>
-      <text>精选推荐研学产品、研学开发</text>
-    </view>
-    <swiper autoplay="true" interval="3000" duration="500" indicator-dots="true" circular="true">
-      <swiper-item wx:for="{{viewHot}}" wx:key="{{index}}" wx:for-item="imgs">
-        <view class="slide-image">
-          <view class="image-wrapper">
-            <view wx:for="{{imgs}}" wx:key="{{index}}" bindtap="enterDetail">
-              <image src="{{item.imgurl}}"></image>
-              <text>{{item.title}}</text>
+        <view class="img-box">
+            <view class="img" wx:for="{{hotView}}" wx:key="{{index}}" bindtap="enterDetail" data-id="{{item.sid}}">
+                <image src="{{item.imgUrl}}"></image>
+                <text>{{item.title}}</text>
             </view>
-          </view>
         </view>
-      </swiper-item>
-    </swiper>
-    <view class="tag">
-      <text wx:for="{{cityHot}}" wx:key="{{index}}">{{item.cityName}}</text>
-      <text>更多</text>
     </view>
-  </view>
-  <view class="hot-view">
-    <view class="tab">
-      <view bindtap="getaroundView">
-        <text wx:if="{{active}}" class="active" >相关新闻</text>
-        <text wx:else>相关新闻</text>
-      </view>
-      <view bindtap="getcountryView">
-        <text wx:if="{{!active}}" class="active">研学路线</text>
-        <text wx:else>研学路线</text>
-      </view>
+
+    <view class="hot-view">
+        <view class="tab">
+            <text class="tab-item {{activeTab === 'tab1' ? 'active' : ''}}" bindtap="switchTab" data-tab="tab1">相关新闻</text>
+            <text class="tab-item {{activeTab === 'tab2' ? 'active' : ''}}" bindtap="switchTab" data-tab="tab2">研学路线</text>
+        </view>
+
+        <view class="content">
+            <view wx:if="{{activeTab === 'tab1'}}">
+                <!-- 相关新闻内容 -->
+                <view class="container container32422">
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 新闻01 </view>
+                            <view class="diygw-col-24 text9-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text11-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text6-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text8-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text18-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text20-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text12-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text14-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text21-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text23-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text2-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="clearfix"></view>
+                </view>
+            </view>
+            <view wx:elif="{{activeTab === 'tab2'}}">
+                <!-- 研学路线内容 -->
+                <view class="container container32422">
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text9-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text11-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text6-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text8-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text18-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text20-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text12-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text14-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text21-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text23-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
+                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
+                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
+                            <view class="diygw-col-24 text-clz diygw-text-sm"> 热门榜排行第1名 </view>
+                            <view class="diygw-col-24 text2-clz diygw-text-sm"> 30000人加入学习 </view>
+                        </view>
+                    </view>
+                    <view class="clearfix"></view>
+                </view>
+            </view>
+        </view>
     </view>
-    <view>
-      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1486064564067&di=11f3984717e07faa110d19fa7deb2f85&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01462d574eb05e32f875a429a7f9ec.gif"  wx:if="{{loading}}"></image>
-        <view wx:for="{{viewList }}" wx:key="{{index}}" wx:if="{{!loading}}" animation="{{animationData}}" class="animationData">
-          <template is="viewList" data="{{...item}}"></template>
-        <view class="fill"></view>
-      </view>
-    </view>
-  </view>
 </view>
