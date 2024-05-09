@@ -1,9 +1,8 @@
 {
     "error_code": 0,
     "reason": "成功",
-    "result": [
-        {
-             "provinceId": "3",
+    "result": [{
+            "provinceId": "3",
             "title": "北海公园",
             "grade": "",
             "now_price": "5",
@@ -11,14 +10,14 @@
             "comm_cnt": null,
             "cityId": "",
             "address": "北京市",
-            "hot":true,
-            "free":true,
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
+            "seller": 99,
             "sid": "32292",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_32292.html",
             "imgurl": "http://pic4.40017.cn/scenery/destination/2016/08/04/17/ymdhZs_240x135_00.jpg",
-            "desc":"北海公园(Beihai Park)，位于北京市中心区，城内景山西侧，在故宫的西北面，与中海、南海合称三海。属于中国古代皇家园林。全园以北海为中心，面积约71公顷，水面占583市亩，陆地占480市亩。这里原是辽、金、元建离宫，明、清辟为帝王御苑，是中国现存最古老、最完整、最具综合性和代表性的皇家园林之一，1925年开放为公园。"
+            "desc": "北海公园(Beihai Park)，位于北京市中心区，城内景山西侧，在故宫的西北面，与中海、南海合称三海。属于中国古代皇家园林。全园以北海为中心，面积约71公顷，水面占583市亩，陆地占480市亩。这里原是辽、金、元建离宫，明、清辟为帝王御苑，是中国现存最古老、最完整、最具综合性和代表性的皇家园林之一，1925年开放为公园。"
         },
         {
             "provinceId": "3",
@@ -28,15 +27,15 @@
             "old_price": "70",
             "comm_cnt": null,
             "cityId": "",
-             "address": "北京市",
-            "hot":true,
-            "free":true,
+            "address": "北京市",
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
+            "seller": 99,
             "sid": "3019",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_3019.html",
             "imgurl": "http://pic4.40017.cn/scenery/destination/2016/07/23/17/hJd1Kx_240x135_00.jpg",
-             "desc":"八达岭长城位于北京市延庆区军都山关沟古道北口。经度115°59′52''-115°59′31''E，纬度40°21′9''N-40°21′15''N。史称天下九塞之一，是万里长城的精华，在明长城中，独具代表性。该段长城地势险峻，居高临下，是明代重要的军事关隘和首都北京的重要屏障。八达岭地理环境优越，自古以来就是通往山西、内蒙、张家口的交通要道。"
+            "desc": "八达岭长城位于北京市延庆区军都山关沟古道北口。经度115°59′52''-115°59′31''E，纬度40°21′9''N-40°21′15''N。史称天下九塞之一，是万里长城的精华，在明长城中，独具代表性。该段长城地势险峻，居高临下，是明代重要的军事关隘和首都北京的重要屏障。八达岭地理环境优越，自古以来就是通往山西、内蒙、张家口的交通要道。"
         },
         {
             "provinceId": "3",
@@ -46,11 +45,11 @@
             "old_price": "50",
             "comm_cnt": null,
             "cityId": "",
-           "address": "北京市",
-            "hot":true,
-            "free":true,
+            "address": "北京市",
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
+            "seller": 99,
             "sid": "3526",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_3526.html",
             "imgurl": "http://pic3.40017.cn/scenery/destination/2015/04/18/22/DfqdN0_240x135_00.jpg"
@@ -63,11 +62,11 @@
             "old_price": "60",
             "comm_cnt": null,
             "cityId": "",
-             "address": "北京市",
-            "hot":true,
-            "free":true,
+            "address": "北京市",
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
+            "seller": 99,
             "sid": "3640",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_3640.html",
             "imgurl": "http://pic3.40017.cn/scenery/destination/2015/04/18/00/RjFi4X_240x135_00.jpg",
@@ -82,10 +81,10 @@
             "comm_cnt": null,
             "cityId": "",
             "address": "北京市",
-            "hot":true,
-            "free":true,
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
+            "seller": 99,
             "sid": "3361",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_3361.html",
             "imgurl": "http://pic3.40017.cn/scenery/destination/2015/04/18/23/IkKTYo_240x135_00.jpg"
@@ -123,8 +122,7 @@
             "old_price": "190",
             "comm_cnt": null,
             "cityId": "",
-            "tag": [
-                {
+            "tag": [{
                     "hot": "推荐"
                 },
                 {
@@ -137,7 +135,7 @@
                     "meal": "套餐"
                 }
             ],
-            "seller":99,
+            "seller": 99,
             "sid": "139122",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_139122.html",
             "imgurl": "http://pic4.40017.cn/scenery/destination/2016/08/04/20/6NJ2g9_240x135_00.jpg"
@@ -175,11 +173,11 @@
             "comm_cnt": null,
             "cityId": "323",
             "address": "巴中市",
-            "hot":true,
-            "free":true,
+            "hot": true,
+            "free": true,
             "meal": true,
-            "seller":99,
-            "desc":"光雾山，地处桃园南，顶峰三尖二缺，平缓变化，远观似卧佛，因常年云雾绕而得名，山上气候变化无常，游人到此，不能高声叫喊，否则，顿时大雨瓢泼。盛夏初秋，顶峰瞰望茫茫绿色世界，使人沉沁在林海之中。",
+            "seller": 99,
+            "desc": "光雾山，地处桃园南，顶峰三尖二缺，平缓变化，远观似卧佛，因常年云雾绕而得名，山上气候变化无常，游人到此，不能高声叫喊，否则，顿时大雨瓢泼。盛夏初秋，顶峰瞰望茫茫绿色世界，使人沉沁在林海之中。",
             "sid": "30",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_32292.html",
             "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3287682770,388330541&fm=23&gp=0.jpg"
@@ -193,11 +191,11 @@
             "comm_cnt": null,
             "cityId": "324",
             "address": "成都市",
-            "hot":true,
-            "free":false,
+            "hot": true,
+            "free": false,
             "meal": true,
-            "seller":99,
-            "desc":"天台山自南、西、北三面围成筲箕状，东面向外敞开，依次呈三级大的台阶平地；由于地理环境特殊，自成一个冬暖夏凉的小区气候，森林覆盖率达94%，终年绿树成荫，四时花开不断。最高的玉霄峰海拔1812米。",
+            "seller": 99,
+            "desc": "天台山自南、西、北三面围成筲箕状，东面向外敞开，依次呈三级大的台阶平地；由于地理环境特殊，自成一个冬暖夏凉的小区气候，森林覆盖率达94%，终年绿树成荫，四时花开不断。最高的玉霄峰海拔1812米。",
             "sid": "10076",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_10076.html",
             "imgurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2002381987,1179545428&fm=116&gp=0.jpg"
@@ -224,8 +222,8 @@
             "comm_cnt": null,
             "cityId": "324",
             "address": "四川省成都市青羊区光华大道二段601号",
-        
-            "seller":99,
+
+            "seller": 99,
             "sid": "29126",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_29126.html",
             "imgurl": "http://pic3.40017.cn/scenery/destination/2015/04/19/06/hiK7gt_240x135_00.jpg"
@@ -239,7 +237,7 @@
             "comm_cnt": null,
             "cityId": "330",
             "address": "四川省乐山市峨眉山市",
-            "seller":99,
+            "seller": 99,
             "sid": "3851",
             "url": "http://www.ly.com/scenery/BookSceneryTicket_3851.html",
             "imgurl": "http://pic4.40017.cn/scenery/destination/2016/10/11/16/dxw7VX_240x135_00.jpg"

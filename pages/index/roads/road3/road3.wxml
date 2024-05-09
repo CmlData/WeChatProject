@@ -1,0 +1,23 @@
+<!--pages/index/roads/road3/road3.wxml-->
+<view class="title">
+    <text>探寻首届美丽中国田园博览会主会场</text>
+    <image src="https://b0.bdstatic.com/cf379a91f3b4655651b5a3c1b0ce7a1b.jpg@h_1280"></image>
+</view>
+<view class="body">
+    <text space="nbsp">
+        这个被誉为“仙境之地”的地方充满了神秘和惊喜。融合了山、林、湖、田等多种空间场景，景色秀丽、文化氛围浓厚。你仿佛置身于仙境，仿佛走进了莫奈的花园，美不胜收。
+    </text>
+    <image src="https://img1.baidu.com/it/u=2683795132,1894339578&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"></image>
+    <text space="nbsp">
+        在这里，你可以参加一场又一场有趣的户外活动，如攀岩、徒步等，充分感受到了大自然的活力和魅力。活动结束后，你可以来到奇幻谷的核心区域，尽情享受这片神秘之地的美景。
+    </text>
+    <image src="https://img2.baidu.com/it/u=3957161286,1345748531&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500"></image>
+    <text space="nbsp">
+        最吸引人的就是这里的帐篷酒店，你可以在体会置身于茶海里的乐趣，四面吹来的风都带着茶香，当你从敞篷口走到露台上时，你可以看到正片茶海随着日落而从金辉色慢慢变的暗淡。
+        而在夜晚，黑暗的天空被一盏盏花灯所点亮，当充满童趣的小游戏出现在集市,原来没有手机的束缚,我们也可以玩得如此酣畅淋漓,像童年一样无忧无虑地笑成花。
+    </text>
+    <image src="http://p4.itc.cn/q_70/images03/20200720/a2fb2aa58c3d418ca2b0171c9a7ec1d1.jpeg"></image>
+    <text space="nbsp">
+        这里可以让你感受到了大自然的神奇和壮丽，可以让你更加热爱生活，珍惜当下生活，更加期待着未来的美好。
+    </text>
+</view>

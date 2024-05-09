@@ -1,0 +1,43 @@
+<!--pages/destination/cityView/subProduct/sub03/sub03.wxml-->
+<view class="view-detail">
+
+    <!-- 选项卡 -->
+    <view class="middle">
+        <image src="https://www.wqdnb.com/static/class/3-1.png" mode="aspectFill"></image>
+    </view>
+
+    <!-- 价格信息 -->
+    <view class="price">
+        <text class="name">游文听诗，赛仙居</text>
+        <view class="detail">
+            <view>
+                <text>158.8￥</text>
+                <text>起</text>
+            </view>
+            <button class="order" bindtap="buyProduct">抢购</button>
+        </view>
+        <!-- <view class="info">
+    <text>套餐说明</text>
+    <text></text>
+</view> -->
+    </view>
+
+    <!-- 产品详情 -->
+    <view class="desc">
+        <text class="title">{{viewDetail.productDetailsTitle}}</text>
+        <text class="info">{{viewDetail.productDetails}}</text>
+    </view>
+
+    <!-- 课程说明 -->
+    <view class="need ratings-need-common">
+        <view class="title">课程说明</view>
+        <view class="content">
+            <text>汉族古代不合乐的称为诗，合乐的称为歌，现代一般统称为诗歌。它按照一定的音节、韵律的要求，表现社会生活和人的精神世界。诗歌的出现最早可以追溯到上古时代，历史悠久，诗歌历经汉魏六朝乐府、唐诗、宋词、元曲之发展，是中华民族重要的传承文化之一。
+            李白曾游神仙居，留下了《梦游天姥吟留别》，“天姥连天向天横，势拔五岳掩赤城。”不仅承载了少年李白一身傲岸高洁的正气，同时也将神仙居巍峨雄起的山脉表现得淋漓尽致。
+            在距离神仙居的25公里处，有着一座年代久远的古镇——皤滩古镇。在这里，又有着“当年奇迹任人在，景仰先生百世师”的一间书院——桐江书院，宋时的朱熹在这里写下了《送子入板桥桐江书院勉学诗》，更是有着“达则兼济天下，穷者独善其身”的院训。在这里可以了解到古人的学习思想、体验古人的学习氛围。
+            一句诗，一根蜡烛，一身文骨。来到神仙居，我们可以了解李白笔下的“安能摧眉折腰事权贵”，感受李白的文人风骨。当我们来到桐江书院，朱熹的《送子入板桥桐江书院勉学诗》，让我们感受到古代学子勤勉用功的精神。
+            </text>
+        </view>
+    </view>
+
+</view>

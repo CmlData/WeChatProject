@@ -1,0 +1,24 @@
+<!--pages/index/roads/road1/road1.wxml-->
+<view class="title">
+    <text>在次坞寻得一方清净</text>
+    <image src="https://img1.baidu.com/it/u=3783897096,1055128805&fm=253&fmt=auto&app=138&f=JPEG?w=749&h=500"></image>
+</view>
+<view class="body">
+    <text space="nbsp">
+        漫步在次坞的青山绿水间，我感受到了一种别样的宁静和清净。这里的山峦叠翠，湖水澄碧，仿佛是一方净土，让人心怀感慨，感叹大自然的神奇魅力。
+        每当早晨走出家门时，迎接我的是一片清新的空气和晨曦中的山峦，漫步在林间小径上，听着鸟鸣虫鸣，感受着大自然的呼吸，心灵得到了极致的放松。
+    </text>
+    <image src="https://img0.baidu.com/it/u=1907597952,1100200261&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"></image>
+    <text space="nbsp">
+        午间，来一碗最著名的“次坞打面”，你会感慨在如此美好的江南水乡品味到如此正宗的次坞打面是多么的美好
+    </text>
+    <image src="https://img1.baidu.com/it/u=245015411,3605707045&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666" class="pic1"></image>
+    <text space="nbsp">
+        来到次坞的水畔，租了一艘小船，漫游在水面上。河水清澈见底，周围群山环绕，我闭上眼睛，静静地感受着湖水的涟漪，心中充满了平静与宁静。
+    </text>
+    <image src="https://img2.baidu.com/it/u=634371728,686970211&fm=253&fmt=auto&app=138&f=JPEG?w=550&h=286"></image>
+    <text space="nbsp">
+        当夕阳西下，湖面泛起一层金色的光芒时，我坐在湖边，凝望着远方的山峦，心中充满了感慨和欣喜。
+        在这片清净的土地上，我找到了心灵的归宿，感受到了生活的美好和意义。
+    </text>
+</view>

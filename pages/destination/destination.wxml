@@ -1,35 +1,34 @@
-
 <!--pages/destination/destination.wxml-->
 <view class="top">
-  <view class="img">
-    <image src="/static/showPhoto/2.jpg" mode="aspectFill"></image>
-  </view>
-  <view class="pos"></view>
-  <view class="search">
-    <input type="text" placeholder="搜索产品..." placeholder-class="placeholderClass" />
-    <text class="icon"></text>
-  </view>
+    <view class="img">
+        <image src="https://wqdnb.com/static/background.jpg" mode="aspectFill"></image>
+    </view>
+    <view class="pos"></view>
+    <view class="search">
+        <input type="text" placeholder="搜索产品..." placeholder-class="placeholderClass" />
+        <text class="icon"></text>
+    </view>
 </view>
 <view class="divider"></view>
 <view class="hot-view hot">
-  <view class="title">
-    <text></text>
-    <text>热销研学课程</text>
-    <text></text>
-  </view>
-  <view class="img-box">
-    <view class="img" wx:for="{{hotView}}" wx:key="{{index}}" bindtap="enterDetail" data-id="{{item.sid}}">
-      <image src="{{item.imgUrl}}"></image>
-      <text>{{item.title}}</text>
-    </view>
-  </view>
-  </view>
-  <view class="divider"></view>
-  <view class="hot-city hot">
     <view class="title">
-      <text></text>
-      <text>所有产品</text>
-      <text></text>
+        <text></text>
+        <text>热销研学课程</text>
+        <text></text>
+    </view>
+    <view class="img-box">
+        <view class="img" wx:for="{{hotView}}" wx:key="sid" bind:tap="enterDetail" data-id="{{item.sid}}">
+            <image src="{{item.imgUrl}}"></image>
+            <text>{{item.title}}</text>
+        </view>
+    </view>
+</view>
+<view class="divider"></view>
+<view class="hot-city hot">
+    <view class="title">
+        <text></text>
+        <text>所有产品</text>
+        <text></text>
     </view>
     <!-- <view class="city-box">
       <text class="city" wx:for="{{nearbyCity}}" wx:key="{{index}}" bindtap="enterCity" data-cityname="{{item}}">{{item}}</text>
@@ -38,59 +37,59 @@
       <text class="icon"></text>
       <text>我的附近</text>
     </view> -->
-  </view>
-  <view class="container container32422">
-	<view class="flex diygw-col-24 items-start flex-nowrap flex1-clz">
-		<image src="/static/chanpingPhoto/1.png" class="image-size diygw-image diygw-col-0 image-clz" mode="widthFix"></image>
-		<view class="flex flex-wrap diygw-col-0 flex-direction-column flex3-clz">
-			<view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-			<view class="flex flex-wrap diygw-col-24 justify-between items-center flex6-clz">
-				<view class="flex diygw-col-0 flex-nowrap flex4-clz">
-					<view class="diygw-col-0 text4-clz"> 199元 </view>
-					<view class="diygw-col-0 text5-clz"> 原价999 </view>
-				</view>
-				<view class="diygw-col-0 text9-clz"> 了解更多 </view>
-			</view>
-			<view class="flex diygw-col-24 flex-nowrap flex5-clz">
-				<view class="diygw-col-0 text7-clz"> 研学套餐 </view>
-				<view class="diygw-col-0 text8-clz"> 定制研学 </view>
-			</view>
-		</view>
-	</view>
-	<view class="flex diygw-col-24 items-start flex-nowrap flex-clz">
-		<image src="/static/chanpingPhoto/1.png" class="image1-size diygw-image diygw-col-0 image1-clz" mode="widthFix"></image>
-		<view class="flex flex-wrap diygw-col-0 flex-direction-column flex2-clz">
-			<view class="diygw-col-24 diygw-text-md"> 研学产品02</view>
-			<view class="flex flex-wrap diygw-col-24 justify-between items-center flex7-clz">
-				<view class="flex diygw-col-0 flex-nowrap flex8-clz">
-					<view class="diygw-col-0 text1-clz"> 199元 </view>
-					<view class="diygw-col-0 text5-clz"> 原价999 </view>
-				</view>
-				<view class="diygw-col-0 text6-clz"> 了解更多 </view>
-			</view>
-			<view class="flex diygw-col-24 flex-nowrap flex9-clz">
-				<view class="diygw-col-0 text10-clz"> 研学套餐 </view>
-				<view class="diygw-col-0 text11-clz"> 定制研学 </view>
-			</view>
-		</view>
-	</view>
-	<view class="flex diygw-col-24 items-start flex-nowrap flex10-clz">
-		<image src="/static/chanpingPhoto/1.png" class="image2-size diygw-image diygw-col-0 image2-clz" mode="widthFix"></image>
-		<view class="flex flex-wrap diygw-col-0 flex-direction-column flex11-clz">
-			<view class="diygw-col-24 diygw-text-md"> 研学产品03 </view>
-			<view class="flex flex-wrap diygw-col-24 justify-between items-center flex12-clz">
-				<view class="flex diygw-col-0 flex-nowrap flex13-clz">
-					<view class="diygw-col-0 text13-clz"> 199元 </view>
-					<view class="diygw-col-0 text5-clz"> 原价999 </view>
-				</view>
-				<view class="diygw-col-0 text15-clz"> 了解更多 </view>
-			</view>
-			<view class="flex diygw-col-24 flex-nowrap flex14-clz">
-				<view class="diygw-col-0 text16-clz"> 研学套餐 </view>
-				<view class="diygw-col-0 text17-clz"> 定制研学 </view>
-			</view>
-		</view>
-	</view>
-    <view class="diygw-col-24 text18-clz"> 了解更多 >>> </view>
+</view>
+<view class="container container32422">
+    <view class="flex diygw-col-24 items-start flex-nowrap flex1-clz">
+        <image src="https://wqdnb.com/static/miniProduct/1-1square.png" class="image-size diygw-image diygw-col-0 image-clz" mode="widthFix"></image>
+        <view class="flex flex-wrap diygw-col-0 flex-direction-column flex3-clz">
+            <view class="diygw-col-24 diygw-text-md"> 枫岭探茗寻迹，宋韵点茶 </view>
+            <view class="flex flex-wrap diygw-col-24 justify-between items-center flex6-clz">
+                <view class="flex diygw-col-0 flex-nowrap flex4-clz">
+                    <view class="diygw-col-0 text4-clz"> 129.9￥ </view>
+                    <view class="diygw-col-0 text5-clz"> 原价999 </view>
+                </view>
+                <view class="diygw-col-0 text9-clz" bind:tap="enterCity"> 了解更多 </view>
+            </view>
+            <view class="flex diygw-col-24 flex-nowrap flex5-clz">
+                <view class="diygw-col-0 text7-clz"> 研学套餐 </view>
+                <view class="diygw-col-0 text8-clz"> 定制研学 </view>
+            </view>
+        </view>
+    </view>
+    <view class="flex diygw-col-24 items-start flex-nowrap flex-clz">
+        <image src="https://wqdnb.com/static/miniProduct/2-1square.png" class="image1-size diygw-image diygw-col-0 image1-clz" mode="widthFix"></image>
+        <view class="flex flex-wrap diygw-col-0 flex-direction-column flex2-clz">
+            <view class="diygw-col-24 diygw-text-md"> 传越之韵·品十八相送</view>
+            <view class="flex flex-wrap diygw-col-24 justify-between items-center flex7-clz">
+                <view class="flex diygw-col-0 flex-nowrap flex8-clz">
+                    <view class="diygw-col-0 text1-clz"> 299元 </view>
+                    <view class="diygw-col-0 text5-clz"> 原价999 </view>
+                </view>
+                <view class="diygw-col-0 text6-clz" bind:tap="enterCity"> 了解更多 </view>
+            </view>
+            <view class="flex diygw-col-24 flex-nowrap flex9-clz">
+                <view class="diygw-col-0 text10-clz"> 研学套餐 </view>
+                <view class="diygw-col-0 text11-clz"> 定制研学 </view>
+            </view>
+        </view>
+    </view>
+    <view class="flex diygw-col-24 items-start flex-nowrap flex10-clz">
+        <image src="https://wqdnb.com/static/miniProduct/3-1square.png" class="image2-size diygw-image diygw-col-0 image2-clz" mode="widthFix"></image>
+        <view class="flex flex-wrap diygw-col-0 flex-direction-column flex11-clz">
+            <view class="diygw-col-24 diygw-text-md"> 游文听诗，赛仙居 </view>
+            <view class="flex flex-wrap diygw-col-24 justify-between items-center flex12-clz">
+                <view class="flex diygw-col-0 flex-nowrap flex13-clz">
+                    <view class="diygw-col-0 text13-clz"> 158.8元 </view>
+                    <view class="diygw-col-0 text5-clz"> 原价999 </view>
+                </view>
+                <view class="diygw-col-0 text15-clz" bind:tap="enterCity"> 了解更多 </view>
+            </view>
+            <view class="flex diygw-col-24 flex-nowrap flex14-clz">
+                <view class="diygw-col-0 text16-clz"> 研学套餐 </view>
+                <view class="diygw-col-0 text17-clz"> 定制研学 </view>
+            </view>
+        </view>
+    </view>
+    <view class="diygw-col-24 text18-clz" bind:tap="enterCity"> 了解更多 >>> </view>
     <view class="clearfix"></view>
 </view>

@@ -1,50 +1,77 @@
 {
-  "pages": [
+    "pages": [
         "pages/index/index",
         "pages/index/webview",
-    "pages/destination/destination",
-     "pages/destination/cityView/cityView", 
-    "pages/index/view-detail/view-detail",
-    "pages/find/find",
-    "pages/personal/personal",
-    "pages/personal/modify-info/modify-info",
-    "pages/index/view-list/view-list"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "position": "bottom",
-    "borderStyle": "white",
-    "backgroundColor": "#ffffff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "/images/navbar/home.png",
-        "selectedIconPath": "/images/navbar/home_active.png"
+        "pages/destination/destination",
+        "pages/destination/cityView/cityView",
+        "pages/index/view-detail/view-detail",
+        "pages/find/find",
+        "pages/index/view-list/view-list",
+        "pages/destination/cityView/subProduct/sub01/sub01",
+        "pages/destination/cityView/subProduct/sub02/sub02",
+        "pages/destination/cityView/subProduct/sub03/sub03",
+        "pages/destination/cityView/subProduct/sub04/sub04",
+        "pages/destination/cityView/subProduct/sub05/sub05",
+        "pages/destination/cityView/subProduct/sub06/sub06",
+        "pages/destination/cityView/subProduct/sub07/sub07",
+        "pages/destination/cityView/subProduct/sub08/sub08",
+        "pages/index/news/new1/new1",
+        "pages/index/news/new2/new2",
+        "pages/index/news/new3/new3",
+        "pages/index/news/new4/new4",
+        "pages/index/news/new5/new5",
+        "pages/index/news/new6/new6",
+        "pages/index/roads/road1/road1",
+        "pages/index/roads/road3/road3",
+        "pages/index/roads/road4/road4",
+        "pages/index/roads/road5/road5",
+        "pages/index/roads/road2/road2",
+        "pages/destination/cityView/Tool/tool",
+        "pages/personal/user-center/index",
+        "pages/personal/userInfo/userInfo"
+    ],
+    "permission": {
+      "scope.writePhotosAlbum": {
+          "desc": "你的小程序需要获取保存图片的权限"
       },
-      {
-        "pagePath": "pages/destination/destination",
-        "text": "产品",
-        "iconPath": "/images/navbar/product.png",
-        "selectedIconPath": "/images/navbar/product_active.png"
-      },
-      {
-        "pagePath": "pages/find/find",
-        "text": "团队",
-        "iconPath": "/images/navbar/team.png",
-        "selectedIconPath": "/images/navbar/team_active.png"
-      },
-      {
-        "pagePath": "pages/personal/personal",
-        "text": "我的",
-        "iconPath": "/images/navbar/my.png",
-        "selectedIconPath": "/images/navbar/my_active.png"
+      "scope.camera": {
+          "desc": "你的小程序需要获取使用摄像头的权限"
       }
-    ]
-  }
+  },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/navbar/home.png",
+                "selectedIconPath": "/images/navbar/home_active.png"
+            },
+            {
+                "pagePath": "pages/destination/destination",
+                "text": "产品",
+                "iconPath": "/images/navbar/product.png",
+                "selectedIconPath": "/images/navbar/product_active.png"
+            },
+            {
+                "pagePath": "pages/find/find",
+                "text": "团队",
+                "iconPath": "/images/navbar/team.png",
+                "selectedIconPath": "/images/navbar/team_active.png"
+            },
+            {
+                "pagePath": "pages/personal/user-center/index",
+                "text": "我的",
+                "iconPath": "/images/navbar/my.png",
+                "selectedIconPath": "/images/navbar/my_active.png"
+            }
+        ]
+    }
 }

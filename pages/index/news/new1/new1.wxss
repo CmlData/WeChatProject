@@ -1,0 +1,6 @@
+/* pages/index/news/new1/new1.wxss */
+@import "../new.wxss";
+
+.pic1 {
+    height: 500px;
+}

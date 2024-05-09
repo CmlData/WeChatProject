@@ -1,0 +1,2 @@
+/* pages/index/news/new2/new2.wxss */
+@import "../new.wxss";

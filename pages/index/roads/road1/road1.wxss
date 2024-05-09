@@ -1,0 +1,5 @@
+/* pages/index/roads/road1/road1.wxss */
+@import "../road.wxss";
+.pic1 {
+    height: 270px;
+}

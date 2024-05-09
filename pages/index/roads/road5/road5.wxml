@@ -1,0 +1,23 @@
+<!--pages/index/roads/road5/road5.wxml-->
+<view class="title">
+    <text>中国最神秘的村庄—诸葛八卦村</text>
+    <image src="https://img0.baidu.com/it/u=1310435879,4161861408&fm=253&fmt=auto&app=138&f=JPEG?w=640&h=420"></image>
+</view>
+<view class="body">
+    <text space="nbsp">
+        诸葛八卦村，被形容为"身在八卦图，不知八卦形"。显微镜下的大明和繁城之下都在这取景，白墙黑瓦，水墨徽派建筑，保留了大量的明、清代居民住所。村内以钟池为中心点，八条小巷向外延展，形成八卦状。
+    </text>
+    <image src="https://img1.baidu.com/it/u=2978424742,2841708121&fm=253&fmt=auto&app=138&f=JPEG?w=700&h=450"></image>
+    <text space="nbsp">
+        漫步在村中的小巷中，感受着古老的气息。路旁的居民们热情地和我们打招呼，让我们感受到了诸葛八卦村的人文风情。
+        在诸葛亮纪念馆，可以了解到诸葛亮的生平和历史功绩。在馆内，各种历史文物和展品生动地展示了诸葛亮的风采和智慧，让我们深受启发。旁边的"忠"、"武"两个大字告诉我们诸葛亮一生的鞠躬尽瘁死而后已。
+    </text>
+    <image src="https://img1.baidu.com/it/u=2349070067,48908164&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"></image>
+    <text>
+        在村中一家民宿落脚，品尝了当地的品尝了诸葛菜肴，味道鲜美，让人食欲大开。在用餐的同时，我们还和店主聊起了关于诸葛亮的故事并聊起了今天的见闻和感受。
+    </text>
+    <image src="https://club2.autoimg.cn/album/g14/M12/7C/ED/userphotos/2017/09/21/19/500_wKgH1VnDnuCAXwq4AAGr2EQ90eM966.jpg"></image>
+    <text>
+        在这个电视剧《显微镜下的大明》的取景地，体会真正的江南水镇，别是有一番风味啊。
+    </text>
+</view>

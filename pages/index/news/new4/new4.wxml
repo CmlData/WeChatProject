@@ -1,0 +1,48 @@
+<!--pages/index/news/new4/new4.wxml-->
+<view class="title">
+    <text>实地调研|翼路生辉团队前往诸暨次坞镇探寻红色足迹</text>
+</view>
+<view class="body">
+    <text class="next">翼路生辉团队前往诸暨次坞镇</text>
+    <text class="next2">
+        探寻红色足迹</text>
+</view>
+<view class="body">
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fl86hD5dYQHDsNUtt1Rsfm5SL1MzPbZ6LicWB6wUbn40ZicT2vo5dvrHA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        4月24日，翼路生辉团队前往诸暨次坞镇进行深入调研。此行旨在多维度调研和挖掘当地文化，感受这片土地的历史底蕴和人文魅力，为后续研学课程开发与合作奠定基础。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fH33xWNFDQEkd7gBXXc98Zj0UBk8oYRgGZbUXAq8PI9Oypdl7pI3sSw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        诸暨次坞镇蕴含诸多红色文化内涵。在次坞镇，有一个非常重要的红色教育基地--俞秀松故居、陵园、纪念馆。这里不仅是对公众进行爱国主义和革命传统教育的重要场所，也是浙江省红色旅游教育基地之一，记录了革命先烈的英勇事迹和革命精神。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6frh3zaPtsIsbibRCslGqibDrbHC01NSTLYh2maMYnkSibUFnDOpJFdBb2A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fFCCxlfajaF3HHyHJPiaLVB0mE1F526XkJNtskKJWq6XLq5RbdyYN86Q/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        上午，团队成员们抵达了俞秀松故居及纪念馆。这座庄严肃穆的建筑，承载着俞秀松同志一生的革命历程和崇高精神。他的一生，充满了对革命事业的执着追求和无私奉献。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fIa2Euicu6rJeV2cehzmjuSzP6p2GwG8dUOAUDc00TTzsMKbweaLorTA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        1920年初，俞秀松被迫离开杭州，到北京参加“工读互助团”。后经李大钊介绍，于1920年3月底从北京来到上海。1920年4、5月间，俞秀松参加了陈独秀、陈望道等组织的马克思主义研究会。8月，中国最早的共产党组织——上海共产主义小组正式成立，俞秀松是发起人之一和中国共产党的创始人之一。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6f98MWBa13gwScjTFFlXOEEkprGzLM51xhISCo7ZJWoXe9wlgDDYN81A/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        接着成员们来到了俞秀松烈士陵园，俞秀松烈士陵园作为重要的红色教育基地，承载着丰富的革命历史和民族精神。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fRzm1ulko5KI1P6HkSLxEUpsB2Hd95ibnQcUwVILUj7baeIOxOYkiaaXg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        离开纪念馆，我们参观了党建活动中心、青年之家、研学体验中心，为后续研学产品的开发做准备。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6frpCL0BD6A3eknz9YPl6FOWgHuGkQrQRcDL0kxJNo62CLxs55Ux8yiaw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        中午，团队成员们来到了次坞镇的一家特色面馆，品尝了地道的次坞打面。次坞打面作为当地的一张美食名片，是一道历史悠久、特色鲜明的传统风味小吃，以其独特的口感和丰富的营养价值深受人们喜爱。次坞打面的起源可以追溯到明朝朱元璋率兵起义时期。当时，当地农户巧手制作了一碗“打面”，朱元璋吃到后赞不绝口，后来建立了大明王朝，仍然难忘这碗热汤打面，于是特地招次坞这家面店的师傅进宫成为御用厨师。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fJLdI9JCIcD9hS4RZV43FP3iaPCXeR6P1ibaLHDRhbhjTrib5S2McsvhgQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        团队还来到了次坞老街俞彩英传统蒸糕店，这家蒸糕店不仅承载了俞彩英家族几代人的手艺和情感，也见证了传统美食在现代社会中的传承和发展。
+        除了参观和品尝，我们还与俞秀松的侄媳妇进行了沟通交流。她热情洋溢地介绍了乡村的发展情况，分享了他们乡村的情况。同时，他们也表达了对翼路生辉团队的热烈欢迎，希望我们能够多为乡村发展出谋划策、贡献力量。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fJick8ibI3iaibtKCXsEX4nJNZY0mH5NRP2DVWwTw5Cibkv9kgduqn5kibrbQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        翼路生辉团队通过与当地政府部门的沟通和交流，了解了当地政府的发展规划、政策导向以及面临的问题和挑战。同时，团队成员就自己的研学产品和创新观点与政府部门进行分享和讨论，为当地的发展提供了有益的建议和思路。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukjuWfeo0T5U9BQia7U92SX6fryjicia6GlxtMnNib3OUkQM7jChcbjgQibhRtFRWpicxMy86fBTRbpcgqog/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        通过此次调研，我们不仅深入学习了红色文化，品味了特色美食，更与当地村民建立了深厚的友谊。我们深刻感受到，乡村振兴需要社会各界的共同努力和支持。翼路生辉团队将以此次调研为契机，继续关注乡村发展，积极投身到乡村振兴的伟大事业中去。
+    </text>
+</view>

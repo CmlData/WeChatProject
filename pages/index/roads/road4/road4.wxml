@@ -1,0 +1,24 @@
+<!--pages/index/roads/road4/road4.wxml-->
+<view class="title">
+    <text>探寻神仙在世间的居所</text>
+    <image src="https://img3.chinadaily.com.cn/images/202403/27/6603dfd4a3109f7844fcb9ce.png"></image>
+</view>
+<view class="body">
+    <text space="nbsp"> 如果不是亲眼所见，真得不敢相信世间真有如此缥缈的仙境之景。
+        神仙居，相传为古之仙人居住的地方，每每雨后初霁，峡谷薄雾缭绕，宛如一幅幅水墨画卷。
+        当我们一行人踏上了前往神仙居的旅程，期待着在这个神秘而美丽的地方度过两天愉快的时光。神仙居以其险峻的山峦、清澈的溪流和蔚蓝的天空而闻名，是许多游客向往的圣地。
+    </text>
+    <image src="https://img2.baidu.com/it/u=3266024988,1184535967&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500"></image>
+    <text space="nbsp">
+        当太阳冉冉升起，洒在山间时，我被鸟鸣声唤醒，感受到了一种别样的清新与美好。我们毅然决定登上山顶，欣赏日出的美景。
+        登上山顶后，我看到了一轮红日从东方升起，照亮了整个山间，让人心旷神怡。在这一刻，我感受到了大自然的力量和神奇，内心充满了感慨和敬畏。
+    </text>
+    <image src="https://t9.baidu.com/it/u=2820785405,44196649&fm=3031&app=3031&size=f242,150&n=0&f=JPEG&fmt=auto?s=766E974788631605349274320300D050&sec=1715101200&t=a29a0aedfa939bd4ec274879e41f9d87"></image>
+    <text space="nbsp">
+        漫步在山间的小径上，欣赏着身边的美景，感受着大自然的魅力。山间的空气清新，溪流潺潺，仿佛是一幅美丽的画卷，让人心生向往。
+    </text>
+    <image src="https://img1.qunarzz.com/p/tts0/1712/be/79129b0bf9cf1402.jpg_r_720x480x95_1bd307a0.jpg"></image>
+    <text space="nbsp">
+        不得不说，这神仙居真的算得上是人间奇景，绝美的风景，清新的空气，悠然自得的心情，真得好让人流连。
+    </text>
+</view>

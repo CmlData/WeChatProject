@@ -20,17 +20,21 @@ Page({
         activeTab: 'tab1',
         active: 5,
         hotView: [{
+            sid: 0,
             title: "研学路线",
-            imgUrl: "/images/destination/view1.png"
+            imgUrl: "https://wqdnb.com/static/index/index1.jpg"
         }, {
+            sid: 1,
             title: "定制研学",
-            imgUrl: "/images/destination/view2.png"
+            imgUrl: "https://wqdnb.com/static/index/index2.jpg"
         }, {
+            sid: 2,
             title: "成品课程",
-            imgUrl: "/images/destination/view3.png"
+            imgUrl: "https://wqdnb.com/static/index/index3.jpg"
         }, {
+            sid: 3,
             title: "教具",
-            imgUrl: "/images/destination/view4.png"
+            imgUrl: "https://wqdnb.com/static/index/index4.jpg"
         }]
     },
     switchTab(e) {
@@ -150,8 +154,91 @@ Page({
     // 进入景点详情
     enterDetail(e) {
         let sid = e.currentTarget.dataset.id;
+        if (sid == 0) {
+            this.setData({
+                activeTab: 'tab2'
+            });
+            wx.pageScrollTo({
+                scrollTop: 480,
+                duration: 500
+            })
+        } else if (sid == 1) {
+            wx.switchTab({
+                url: '/pages/destination/destination',
+            })
+        } else if (sid == 2) {
+            wx.navigateTo({
+                url: '/pages/destination/cityView/cityView?sid=' + sid + ''
+            })
+        } else if (sid == 3) {
+            wx.navigateTo({
+                url: '/pages/destination/cityView/Tool/tool'
+            })
+        }
+
+    },
+    // enterDetail(e) {
+    //   let sid = e.currentTarget.dataset.id;
+    //   wx.navigateTo({
+    //     url: '/pages/destination/cityView/cityView?sid=' + sid + ''
+    //   })
+    // },
+
+    //路线
+    new1() {
         wx.navigateTo({
-            url: 'view-detail/view-detail?sid=' + sid + ''
+            url: '/pages/index/news/new1/new1',
         })
-    }
+    },
+    new2() {
+        wx.navigateTo({
+            url: '/pages/index/news/new2/new2',
+        })
+    },
+    new3() {
+        wx.navigateTo({
+            url: '/pages/index/news/new3/new3',
+        })
+    },
+    new4() {
+        wx.navigateTo({
+            url: '/pages/index/news/new4/new4',
+        })
+    },
+    new5() {
+        wx.navigateTo({
+            url: '/pages/index/news/new5/new5',
+        })
+    },
+    new6() {
+        wx.navigateTo({
+            url: '/pages/index/news/new6/new6',
+        })
+    },
+
+    road1() {
+        wx.navigateTo({
+            url: '/pages/index/roads/road1/road1',
+        })
+    },
+    road2() {
+        wx.navigateTo({
+            url: '/pages/index/roads/road2/road2',
+        })
+    },
+    road3() {
+        wx.navigateTo({
+            url: '/pages/index/roads/road3/road3',
+        })
+    },
+    road4() {
+        wx.navigateTo({
+            url: '/pages/index/roads/road4/road4',
+        })
+    },
+    road5() {
+        wx.navigateTo({
+            url: '/pages/index/roads/road5/road5',
+        })
+    },
 })

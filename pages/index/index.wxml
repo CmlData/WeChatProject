@@ -10,27 +10,27 @@
         <swiper :current="swiperIndex" class="swiper swiper-indicator_rect_radius" bindchange="changeSwiper" previous-margin="50rpx" next-margin="50rpx" indicator-color="rgba(51, 51, 51, 0.39)" indicator-active-color="#fff" indicator-dots="true" autoplay interval="3000" circular="true" style="height: 300rpx">
             <swiper-item class="diygw-swiper-item">
                 <view class="diygw-swiper-item-wrap {{swiperIndex != 0?'swiper-scale':''}}">
-                    <image src="/static/showPhoto/1.jpg" class="diygw-swiper-image"></image>
+                    <image src="https://www.wqdnb.com/static/scroll/1.jpg" class="diygw-swiper-image"></image>
                 </view>
             </swiper-item>
             <swiper-item class="diygw-swiper-item">
                 <view class="diygw-swiper-item-wrap {{swiperIndex != 1?'swiper-scale':''}}">
-                    <image src="/static/showPhoto/2.jpg" class="diygw-swiper-image"></image>
+                    <image src="https://www.wqdnb.com/static/scroll/2.jpg" class="diygw-swiper-image"></image>
                 </view>
             </swiper-item>
             <swiper-item class="diygw-swiper-item">
                 <view class="diygw-swiper-item-wrap {{swiperIndex != 2?'swiper-scale':''}}">
-                    <image src="/static/showPhoto/3.jpg" class="diygw-swiper-image"></image>
+                    <image src="https://www.wqdnb.com/static/scroll/3.jpg" class="diygw-swiper-image"></image>
                 </view>
             </swiper-item>
             <swiper-item class="diygw-swiper-item">
                 <view class="diygw-swiper-item-wrap {{swiperIndex != 3?'swiper-scale':''}}">
-                    <image src="/static/showPhoto/4.jpg" class="diygw-swiper-image"></image>
+                    <image src="https://www.wqdnb.com/static/scroll/4.jpg" class="diygw-swiper-image"></image>
                 </view>
             </swiper-item>
             <swiper-item class="diygw-swiper-item">
                 <view class="diygw-swiper-item-wrap {{swiperIndex != 4?'swiper-scale':''}}">
-                    <image src="/static/showPhoto/5.jpg" class="diygw-swiper-image"></image>
+                    <image src="https://www.wqdnb.com/static/scroll/5.jpg" class="diygw-swiper-image"></image>
                 </view>
             </swiper-item>
         </swiper>
@@ -41,7 +41,7 @@
             <text>精选推荐研学产品、研学开发</text>
         </view>
         <view class="img-box">
-            <view class="img" wx:for="{{hotView}}" wx:key="{{index}}" bindtap="enterDetail" data-id="{{item.sid}}">
+            <view class="img" wx:for="{{hotView}}" wx:key="sid" bindtap="enterDetail" data-id="{{item.sid}}">
                 <image src="{{item.imgUrl}}"></image>
                 <text>{{item.title}}</text>
             </view>
@@ -58,52 +58,40 @@
             <view wx:if="{{activeTab === 'tab1'}}">
                 <!-- 相关新闻内容 -->
                 <view class="container container32422">
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new1">
+                        <image src="https://wqdnb.com/static/news/遨游研学海洋.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 新闻01 </view>
-                            <view class="diygw-col-24 text9-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text11-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 云研知行|以梦为帆、青春无悔——遨游研学海洋 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new2">
+                        <image src="https://wqdnb.com/static/news/农创客进高校.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text6-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text8-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 农创客进高校，翼路生辉助力 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new3">
+                        <image src="https://wqdnb.com/static/news/素质教育风尚.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text18-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text20-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 素质教育新风尚，研学指导证等你来拿！ </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new4">
+                        <image src="https://wqdnb.com/static/news/探寻红色足迹.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text12-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text14-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 实地调研|翼路生辉团队前往诸暨次坞镇探寻红色足迹 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new5">
+                        <image src="https://wqdnb.com/static/news/未来茶乡探秘.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text21-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text23-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 云研知行——未来茶乡探秘，茶叶与科技的完美融合 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="new6">
+                        <image src="https://wqdnb.com/static/news/智驭未来探行.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text2-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 翼路生辉|智驭未来·Apollo探秘行 </view>
                         </view>
                     </view>
                     <view class="clearfix"></view>
@@ -112,52 +100,34 @@
             <view wx:elif="{{activeTab === 'tab2'}}">
                 <!-- 研学路线内容 -->
                 <view class="container container32422">
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="road1">
+                        <image src="https://wqdnb.com/static/route/次坞.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text9-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text11-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 在次坞寻得一方清净 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="road2">
+                        <image src="https://wqdnb.com/static/route/大陈岛.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text6-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text8-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 大陈岛，新中国最后一块解放的地方 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="road3">
+                        <image src="https://wqdnb.com/static/route/奇幻谷.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text18-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text20-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 探寻首届美丽中国田园博览会主会场 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="road4">
+                        <image src="https://wqdnb.com/static/route/神仙居.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text12-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text14-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 探寻神仙在世间的居所 </view>
                         </view>
                     </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-3jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
+                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz" bind:tap="road5">
+                        <image src="https://wqdnb.com/static/route/诸葛八卦村.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
                         <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text21-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text23-clz diygw-text-sm"> 30000人加入学习 </view>
-                        </view>
-                    </view>
-                    <view class="flex flex-wrap diygw-col-24 justify-center items-center flex6-clz">
-                        <image src="/static/wbt-4jpg.jpg" class="response diygw-col-8 image3-clz" mode="widthFix"></image>
-                        <view class="flex flex-wrap diygw-col-16 flex-direction-column justify-between flex9-clz">
-                            <view class="diygw-col-24 diygw-text-md"> 研学产品01 </view>
-                            <view class="diygw-col-24 text-clz diygw-text-sm"> 热门榜排行第1名 </view>
-                            <view class="diygw-col-24 text2-clz diygw-text-sm"> 30000人加入学习 </view>
+                            <view class="diygw-col-24 diygw-text-md"> 中国最神秘的村庄—诸葛八卦村 </view>
                         </view>
                     </view>
                     <view class="clearfix"></view>

@@ -65,18 +65,6 @@ page{
   box-sizing: border-box;
 }
 
-.top .search .icon {
-  position: absolute;
-  z-index: 9999;
-  right: 94rpx;
-  top: 20rpx;
-  height: 26rpx;
-  width: 26rpx;
-  background: url(/images/destination/destination.png) no-repeat;
-  background-size: 94rpx 38rpx;
-  background-position: -38rpx 0;
-}
-
 .placeholderClass {
   color: #707070;
   font-size: 24rpx;
@@ -119,7 +107,7 @@ text-align: center;
   height: 8rpx;
   width: 18rpx;
   background-position: -18px 0;
-  background: url(/images/destination/destination.png) no-repeat;
+  background: url() no-repeat;
   background-size: 94rpx 38rpx;
 }
 

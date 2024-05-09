@@ -1,0 +1,31 @@
+<!--pages/index/news/new2/new2.wxml-->
+<view class="title">
+    <text>农创客进高校，翼路生辉助力
+        乡村振兴新征程</text>
+</view>
+<view class="body">
+    <text>4月17日下午，由浙江省农业农村宣传中心指导、浙江省农创客发展联合会主办、浙江旅游职业学院徐霞客创新创业学院承办的“农创客进高校活动” 在浙旅·乡创空间顺利举行。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4ElasrxW5qOkuQTaaFV2b7ia6Oz4Eyz7mKaPyFPNicHVrLeyh9QRGhfEVFzTA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        省农业农村厅原一级巡视员、省农创客发展联合会名誉会长张火法、省农业农村宣传中心主任孙燕勤、副主任吴黄娟、省农创联乡村运营专委会常务副主任委员、省农创客发展联合会常务副秘书长李孝初、副秘书长王渡丹，浙江旅游职业学院党委委员、副校长郎富平、徐霞客创新创业学院院长沈鑫泉和来自浙江省内的优秀农创客企业家共同出席本次活动。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4ElaskdM5BvrmYHro0r10q6LgHjndhkjAITnUZJK4X5dbbWlk5bJ8B688bg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        浙江知翼教育科技有限公司在此次活动中展示了公司开发的各类乡村研学产品，得到了优秀农创客企业家的肯定和建议，努力为乡村振兴添砖加瓦。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4Elas2qvzzOTxqj2Uv5bc4hBveWiaQRicXLPCSSKicSOd5cUoSROCJBpQic5Uzg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        翼路生辉致力于通过文化＋旅游＋科技的方式，盘活乡村研学基地周边“吃、住、行、游、购、娱、学”资源，成功搭建研学产业链，拓展传统旅行社、研学门店等渠道，创建乡村研学S2B2C商业模式，助力乡村研学基地智慧教学、智慧管理、智慧服务。并将研学创新产品与乡村文化内涵相结合，打造出符合乡村发展实际需求的一系列研学产品。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4ElasyMl2jDMa1sT38ru59tLiaCmTjoWtp00HVadiaAIIBrupTYISNFcicgibUw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        活动现场，翼路生辉团队成员向师生们详细介绍了这些研学产品的设计理念、功能特点以及实际应用效果。通过生动的案例分享和互动体验，让在场的每一个人都深刻感受到了研学助力乡村振兴的巨大潜力.</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4ElasiawYpW5PpDuTukNrFdKg5b7XiatkicnLzW9WTtjKpkhB3JCiaSprkibUmYw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        省农业厅的各位领导也对翼路生辉的研学产品给予了高度评价，并就如何更好地将各乡村文化植入旅游、推动乡村振兴等问题与团队成员进行了深入的交流。不仅为知翼公司未来的发展指明了方向，也为乡村振兴注入了新的动力。</text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4ElasibkPA9gmHB6OrxBBdZzKGQaeSTUJGJibbcLI0FVf9qU8aWia8gt4WD8icA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        此次参加“农创客进高校活动”，不仅让更多人了解到了翼路生辉团队在乡村振兴领域的努力和成果，也进一步推动了文化教育与乡村的深度融合。我们相信，在浙江知翼教育科技有限公司等企业的共同努力下，乡村振兴的道路一定会越走越宽广，未来的乡村一定会更加美好。
+    </text>
+    <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukhibwv9s0HvOJMsxITp4Elas0GbYgVCmwNpbZNqMD2GvZwta6swyhJ8soMbgEa6GwBD7Hsd7W9kCibA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <text>
+        让我们携手共进，为乡村振兴贡献自己的力量！</text>
+</view>

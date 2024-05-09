@@ -1,0 +1,2 @@
+/* pages/index/roads/road2/road2.wxss */
+@import "../road.wxss";

@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container1">
+    <view class="userinfo1">
+      <block wx:if="{{canIUseNicknameComp && !hasUserInfo}}">
+        <button class="avatar-wrapper1" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+          <image class="avatar1" src="{{userInfo.avatarUrl}}"></image>
+        </button>
+        <view class="nickname-wrapper1">
+          <text class="nickname-label1">昵称</text>
+          <input type="nickname" class="nickname-input1" placeholder="{{palce_text}}" bind:change="onInputChange" />
+        </view>
+      </block>
+      <block wx:elif="{{!hasUserInfo}}">
+        <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+        <view wx:else> 请使用最新版本微信 </view>
+      </block>
+      <block wx:else>
+        <!-- <image bindtap="bindViewTap" class="userinfo-avatar1" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname1">{{userInfo.nickName}}</text> -->
+
+        <button class="avatar-wrapper1" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+          <image class="avatar1" src="{{userInfo.avatarUrl}}"></image>
+        </button>
+        <view class="nickname-wrapper1">
+          <text class="nickname-label1">昵称</text>
+          <input type="nickname" class="nickname-input1" placeholder="{{userInfo.nickName}}" bind:change="onInputChange"/>
+        </view>
+
+      </block>
+    </view>
+    <button class="button"  bindtap="saveuserinfo">确认信息</button>
+
+    <!-- <image class="avatar1" src="{{userInfo.avatarUrl}}" bindtap="PreImage"></image> -->
+  </view>
+</scroll-view>
+
+
