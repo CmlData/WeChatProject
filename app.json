@@ -30,14 +30,7 @@
         "pages/personal/user-center/index",
         "pages/personal/userInfo/userInfo"
     ],
-    "permission": {
-      "scope.writePhotosAlbum": {
-          "desc": "你的小程序需要获取保存图片的权限"
-      },
-      "scope.camera": {
-          "desc": "你的小程序需要获取使用摄像头的权限"
-      }
-  },
+
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
