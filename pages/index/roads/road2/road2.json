@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "大陈岛",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "诸葛八卦村",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

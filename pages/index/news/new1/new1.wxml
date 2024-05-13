@@ -5,32 +5,45 @@
 <view class="body">
     <text class="minor">001 关于我们
     </text>
-    <text>翼路生辉专注于青少年素质提升，融合“智慧研学，行知世界，助力成长”理念，提供研学产品、赋能研学基地营地项目智慧运营升级。
-        浙江知翼教育科技有限公司主要提供研学产品、赋能研学基地营地项目智慧运营升级。该项目依托于“文旅+教育+科技 ”优势资源，解决“双减”政策下研学基地营地、教育培训机构、研学机构等痛点，提供专业的研学产业生态运营服务方案，帮助上游研学基地完成研学课程开发与智慧营地转型；帮助下游研学机构打通销售渠道；其产品背靠一流的教育专家团队和研学旅行行业资源，创新研发完整的课程体系、智慧营地三维实景模型。通过品牌、课程、技术、渠道和运营五大模块输出，构建研学行业生态圈，且助力行业数字化管理和转型服务。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>翼路生辉专注于青少年素质提升，融合“智慧研学，行知世界，助力成长”理念，提供研学产品、赋能研学基地营地项目智慧运营升级。
+            浙江知翼教育科技有限公司主要提供研学产品、赋能研学基地营地项目智慧运营升级。该项目依托于“文旅+教育+科技 ”优势资源，解决“双减”政策下研学基地营地、教育培训机构、研学机构等痛点，提供专业的研学产业生态运营服务方案，帮助上游研学基地完成研学课程开发与智慧营地转型；帮助下游研学机构打通销售渠道；其产品背靠一流的教育专家团队和研学旅行行业资源，创新研发完整的课程体系、智慧营地三维实景模型。通过品牌、课程、技术、渠道和运营五大模块输出，构建研学行业生态圈，且助力行业数字化管理和转型服务。</text>
+    </view>
 </view>
 <view class="body">
     <text class="minor">002 公司法人介绍
     </text>
-    <text>陈雨婷，女，汉族，出生于2003年6月，共青团员，浙江知翼教育科技有限公司法人，现就读于浙江旅游职业学院研学旅行管理与服务专业。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>陈雨婷，女，汉族，出生于2003年6月，共青团员，浙江知翼教育科技有限公司法人，现就读于浙江旅游职业学院研学旅行管理与服务专业。</text>
+    </view>
     <image class="pic1" src="https://mmbiz.qpic.cn/sz_mmbiz_png/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wMoIQ3Sq1fFc2Ns3wLKYLamWUV7rcncpdCzBKCIRvB1liaRfsxEFO0T2A/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
 </view>
 <view class="body">
     <text class="minor">个人事迹</text>
-    <text>
-        她是研学圆梦者，她曾前往浙江杭州皓石研学旅游服务有限公司、衢州中小学素质教育实践学校等10家研学机构、营地担任研学指导师进行学习实践，带领团队创立“翼路生辉”品牌，开发多套“全加新”研学课程体系，助力多家企业转型升级、研学产业发展。
-    </text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>她是研学圆梦者，她曾前往浙江杭州皓石研学旅游服务有限公司、衢州中小学素质教育实践学校等10家研学机构、营地担任研学指导师进行学习实践，带领团队创立“翼路生辉”品牌，开发多套“全加新”研学课程体系，助力多家企业转型升级、研学产业发展。
+        </text>
+    </view>
     <image src="https://mmbiz.qpic.cn/sz_mmbiz_png/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wM6OJwxfZNyYDsvLzibcB0LX4kjdicZsAiaowMhBsuEvfyshtlIn5Ec18uQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        她是研学造梦师，深耕社会公益服务，发起“听障家庭亲子研学活动”，研学服务1000多个小时，点亮3000余名孩子的梦。
-    </text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>她是研学造梦师，深耕社会公益服务，发起“听障家庭亲子研学活动”，研学服务1000多个小时，点亮3000余名孩子的梦。
+        </text>
+    </view>
     <image src="https://mmbiz.qpic.cn/sz_mmbiz_png/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wM0mwia0HSfp0YGdyDXyKpowBej8sxjqCnlZYU2BiaUCSWbdS2A7IWohXg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        她是研学追梦人，曾获2023年浙江省高职高专院校国家奖学金特别评审奖，还斩获乡村振兴第二届研学旅行赛一等奖等国家级荣誉3项、国际“互联网+”大学生创新创业大赛金奖等省市级荣誉4项。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>她是研学追梦人，曾获2023年浙江省高职高专院校国家奖学金特别评审奖，还斩获乡村振兴第二届研学旅行赛一等奖等国家级荣誉3项、国际“互联网+”大学生创新创业大赛金奖等省市级荣誉4项。</text>
+    </view>
     <image src="https://mmbiz.qpic.cn/sz_mmbiz_png/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wMhZezJzs15KQMAryibZDGAxdDn4USs6icF85zUGW2zDt7ibyntbUSwmg0Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        陈雨婷曾在省政协民生协商论坛代表全省大学生发言，她还曾接受接受浙江卫视采访分享研学课程设计思路，个人事迹受中国发展网、浙江经视、凤凰网等多家媒体报道，浏览量超百万。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>陈雨婷曾在省政协民生协商论坛代表全省大学生发言，她还曾接受接受浙江卫视采访分享研学课程设计思路，个人事迹受中国发展网、浙江经视、凤凰网等多家媒体报道，浏览量超百万。</text>
+    </view>
     <image src="https://mmbiz.qpic.cn/sz_mmbiz_png/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wM4e1FZ1YibcEYYY7via3Gwxj72WBMgc27nYyiasJewdpTCffk9QwUGC8TQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        陈雨婷常说：“在专业学习中长知识，在行业实践中增技能，在师友共处中建情谊，在社会服务中传关爱。自己将会和研学行业共成长，精益求精，点亮更多孩子的未来星途！”</text>
-    <image src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wMdzhOHE3dFj4AD9LmykVWSBxe02bhNsia0Eunwx3PZdFCrXYOSksqsFg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
+    <view class="text-gray padding" style="text-indent:2em;">
+        <text>陈雨婷常说：“在专业学习中长知识，在行业实践中增技能，在师友共处中建情谊，在社会服务中传关爱。自己将会和研学行业共成长，精益求精，点亮更多孩子的未来星途！”
+        </text>
+    </view>
+    <image src="https://mmbiz.qpic.cn/sz_mmbiz_jpg/nk2VdGzEiabrFwPolpG0gMwcwVUcYb1wMdzhOHE3dFj4AD9LmykVWSBxe02bhNsia0Eunwx3PZdFCrXYOSksqsFg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1">
+    </image>
+</view>
+<view class="a1">
 </view>

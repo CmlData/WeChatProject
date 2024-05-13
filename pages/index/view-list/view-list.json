@@ -2,6 +2,7 @@
 
     "navigationBarTitleText": "景点",
     "navigationBarBackgroundColor": "#98d361",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "backgroundColorTop": "#FFF"
 
 }

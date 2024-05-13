@@ -4,17 +4,22 @@
 </view>
 <view class="body">
     <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukh6OUl7jdPk7GLaiciafvO9bOHOkm7cpjLhtfAp4nf35ek8qWyy31vlIbWUkxq4XDJR0mKkf7PbOHnA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        近期，浙江知翼教育科技有限公司与中泰茶乡达成合作意向，就构建三维景区，打造智慧研学基地等工作展开合作。3月24日，“翼路生辉”项目组成员踏上了探访未来茶乡——余杭中泰的旅程。
-        在余杭区的中泰街道，有4000多户茶农辛勤耕耘，共同种植了16000多亩茶叶，这些茶树大多生长在海拔350米至450米的山头上，汲取着大自然的精华。茶山的文化底蕴深厚，茶叶种植历史悠久，茶文化源远流长。茶农们世代相传的制茶技艺，让这里的茶叶独具特色，品质上乘。
+    <view class="text-gray padding" style="text-indent:2em;">
+    <text>近期，浙江知翼教育科技有限公司与中泰茶乡达成合作意向，就构建三维景区，打造智慧研学基地等工作展开合作。3月24日，“翼路生辉”项目组成员踏上了探访未来茶乡——余杭中泰的旅程。</text></view><view class="text-gray padding" style="text-indent:2em;"><text>在余杭区的中泰街道，有4000多户茶农辛勤耕耘，共同种植了16000多亩茶叶，这些茶树大多生长在海拔350米至450米的山头上，汲取着大自然的精华。茶山的文化底蕴深厚，茶叶种植历史悠久，茶文化源远流长。茶农们世代相传的制茶技艺，让这里的茶叶独具特色，品质上乘。
     </text>
+    </view>
     <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukh6OUl7jdPk7GLaiciafvO9bObkOfujx8b5zpcqkiaOkiaB5PLNfvicGLxrOv6szB6kNC47MX5nnlwokPg/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        上午，项目成员探访了当地茶农，跟随茶农上山体验采茶。下山后跟着当地村民学习了茶叶烘炒技艺。茶叶的炒制技艺极为讲究，每一道工序都凝聚着匠人的心血与智慧。严格把控摊放、杀青、干燥、分筛等多道工序，以确保茶叶品质的卓越与口感的独特。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+    <text>上午，项目成员探访了当地茶农，跟随茶农上山体验采茶。下山后跟着当地村民学习了茶叶烘炒技艺。茶叶的炒制技艺极为讲究，每一道工序都凝聚着匠人的心血与智慧。严格把控摊放、杀青、干燥、分筛等多道工序，以确保茶叶品质的卓越与口感的独特。</text>
+    </view>
     <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukh6OUl7jdPk7GLaiciafvO9bOT7yVxNBbb3MxqHicmRt7PavAJQibjbOOJW6L9Nb0s4aad4vfdl8M2Ejw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        下午，项目成员对茶山进行了航测工作。我们利用先进的无人机技术，对茶山进行了精准拍摄和测量。通过收集到的航测数据，我们计划构建茶山的3D模型，并规划出精准的研学项目，以便更好地展示茶山的美丽风光和丰富文化。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+    <text>下午，项目成员对茶山进行了航测工作。我们利用先进的无人机技术，对茶山进行了精准拍摄和测量。通过收集到的航测数据，我们计划构建茶山的3D模型，并规划出精准的研学项目，以便更好地展示茶山的美丽风光和丰富文化。</text>
+    </view>
     <image src="https://mmbiz.qpic.cn/mmbiz_jpg/uqWjgKTAukh6OUl7jdPk7GLaiciafvO9bOXoRJiab4xSribdodO6HPwxS68rg4q9iaCIjePUVYaBp3cnibxEO7qWjCqw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1"></image>
-    <text>
-        “翼路生辉”项目组一直致力于三维景区构建、数字化服务以及研学基地的开发。未来茶乡——中泰作为我们新的合作对象，我们深信通过我们的专业技术和不懈努力，定能将其打造成一个具有吸引力的研学基地，让更多的人领略到茶乡的独特魅力。</text>
+    <view class="text-gray padding" style="text-indent:2em;">
+    <text>“翼路生辉”项目组一直致力于三维景区构建、数字化服务以及研学基地的开发。未来茶乡——中泰作为我们新的合作对象，我们深信通过我们的专业技术和不懈努力，定能将其打造成一个具有吸引力的研学基地，让更多的人领略到茶乡的独特魅力。</text>
+    </view>
+</view>
+<view class="a1">
 </view>

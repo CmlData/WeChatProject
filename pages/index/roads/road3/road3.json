@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "奇幻谷",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

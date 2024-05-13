@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "次坞",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

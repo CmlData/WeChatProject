@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "神仙居",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

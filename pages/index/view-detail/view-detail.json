@@ -1,5 +1,6 @@
 {
     "navigationBarTitleText": "景点详情",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#FFF"
 }

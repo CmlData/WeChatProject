@@ -19,7 +19,6 @@ text {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .body {
     width: 80%;
     margin: 0 auto;
@@ -27,4 +26,7 @@ text {
 .minor {
     font-size: 18px;
     font-weight: bolder;
+}
+.a1 {
+    height: 40px;
 }

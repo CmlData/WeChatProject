@@ -160,7 +160,7 @@ page {
   z-index: 1000;
   overflow: hidden;
   width: calc(110% - 16rpx - 10rpx) !important;
-  height: 78px;
+  height: 145rpx;
   border-top-left-radius: 12rpx;
   margin-top: 16rpx;
   border-top-right-radius: 12rpx;

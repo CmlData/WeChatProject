@@ -21,3 +21,6 @@
 image {
     height: 200px;
 }
+.a2 {
+    height: 40px;
+}

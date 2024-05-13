@@ -46,7 +46,7 @@
 .settings_container {
   position: relative;
   top: 150rpx;
-  padding: 0 40rpx;
+  padding: 0 20rpx;
   display: flex;
   flex-direction: column;
   gap: 10rpx;
@@ -110,4 +110,8 @@ button:focus{
 
 button::after{
   border: none;
+}
+
+.cli {
+  width: 100%;
 }
