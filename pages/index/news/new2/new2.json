@@ -2,5 +2,5 @@
     "navigationBarTitleText": "新闻",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
-    "backgroundColorTop": "#FFF"
+    "backgroundColorTop": "#FFF", "backgroundColorBottom": "#FFF"
 }

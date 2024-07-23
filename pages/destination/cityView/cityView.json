@@ -2,5 +2,5 @@
     "navigationBarTitleText": "产品详情",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
-    "backgroundColorTop": "#FFF"
+    "backgroundColorTop": "#FFF", "backgroundColorBottom": "#FFF"
 }

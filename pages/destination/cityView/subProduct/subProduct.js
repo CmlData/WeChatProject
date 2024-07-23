@@ -1,10 +1,18 @@
-// pages/destination/cityView/subProduct/sub07/sub07.js
+// pages/destination/cityView/subProduct/sub08/sub08.js
+// import {productList} from "../cityView/cityView.js"
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
+      sid: 0,
+      title: "",
+      description: "",
+      img: "",
+      thumbnail:"",
+      selfPrice: 0,
+      teamPrice: 0,
 
     },
     // 点击抢购按钮
@@ -16,12 +24,19 @@ Page({
             duration: 2000
         });
     },
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad(options) {
 
+    onLoad: function(options) {
+      this.setData({
+        sid: options.id,
+        img: options.img,
+        thumbnail: options.thumbnail,
+        title: options.title,
+        description: options.description,
+        selfPrice: options.selfPrice,
+        teamPrice: options.teamPrice
+      });
     },
+
 
     /**
      * 生命周期函数--监听页面初次渲染完成
