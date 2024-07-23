@@ -24,12 +24,22 @@ page {
 }
 
 .view .img {
-    float: left;
+  float: left;
   width: 233rpx;
   height: 172rpx;
   border-radius: 10rpx;
   background: rgb(255, 255, 255);
 }
+
+/* .view .newimg{
+  float: left;
+  width: 233rpx;
+  height: 172rpx;
+  border-radius: 10rpx;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  clip: rect(0, 3rpx, 0, 3rpx);
+} */
 
 .view .info {
     margin-left: 251rpx;
