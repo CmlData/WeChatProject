@@ -1,6 +1,6 @@
 
 // pages/me/index.js
-const defaultAvatarUrl = 'https://wqdnb.com/static/icon/0.png'
+const defaultAvatarUrl = 'https://www.xingjiangzh.cn/static/icon/0.png'
 const app = getApp()
 Page({
   /**

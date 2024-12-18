@@ -22,19 +22,19 @@ Page({
         hotView: [{
             sid: 0,
             title: "研学路线",
-            imgUrl: "https://wqdnb.com/static/index/index1.jpg"
+            imgUrl: "https://www.xingjiangzh.cn/static/index/index1.jpg"
         }, {
             sid: 1,
             title: "定制研学",
-            imgUrl: "https://wqdnb.com/static/index/index2.jpg"
+            imgUrl: "https://www.xingjiangzh.cn/static/index/index2.jpg"
         }, {
             sid: 2,
             title: "成品课程",
-            imgUrl: "https://wqdnb.com/static/index/index3.jpg"
+            imgUrl: "https://www.xingjiangzh.cn/static/index/index3.jpg"
         }, {
             sid: 3,
             title: "教具",
-            imgUrl: "https://wqdnb.com/static/index/index4.jpg"
+            imgUrl: "https://www.xingjiangzh.cn/static/index/index4.jpg"
         }]
     },
     switchTab(e) {

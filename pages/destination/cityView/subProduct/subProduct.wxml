@@ -1,0 +1,42 @@
+<!--pages/destination/cityView/subProduct/sub08/sub08.wxml-->
+<view class="view-detail">
+
+    <!-- 选项卡 -->
+    <view class="middle" bind:tap="onLoad">
+        <image src="{{img}}" mode="widthFix"></image>
+        <!-- <image src="{{img}}" mode="aspectFill"></image> -->
+    </view>
+
+    <!-- 价格信息 -->
+    <view class="price">
+        <text class="name">{{title}}</text>
+        <view class="detail">
+            <view>
+                <text>{{selfPrice}}￥</text>
+                <text decode="{{true}}">购买&emsp;</text>
+            </view>
+            <view>
+                <text>{{teamPrice}}￥</text>
+                <text>拼团</text>
+            </view>
+            <button class="order" bindtap="buyProduct" open-type="contact">抢购</button>
+        </view>
+    </view>
+
+    <!-- 产品详情 -->
+    <!-- <view class="desc">
+        <text class="title">{{viewDetail.productDetailsTitle}}</text>
+        <text class="info">{{viewDetail.productDetails}}</text>
+    </view> -->
+
+    <!-- 课程说明 -->
+    <view class="need ratings-need-common">
+        <view class="title">课程说明</view>
+        <view class="content">
+            <text>{{description}}
+
+            </text>
+        </view>
+    </view>
+
+</view>

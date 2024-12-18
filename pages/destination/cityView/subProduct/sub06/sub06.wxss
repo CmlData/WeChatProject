@@ -1,6 +1,0 @@
-/* pages/destination/cityView/subProduct/sub06/sub06.wxss */
-@import "../sub.wxss";
-
-.middle image {
-    height: 500rpx;
-}

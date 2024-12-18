@@ -1,6 +1,6 @@
 {
     "navigationBarTitleText": "用户信息",
     "navigationBarBackgroundColor": "#fff",
-    "backgroundColorTop": "#FFF"
+    "backgroundColorTop": "#FFF", "backgroundColorBottom": "#FFF"
 
 }

@@ -3,123 +3,19 @@
 <view class="view-box">
 
     <!--此处应循环数据-->
-    <view class="view" bind:tap="sub01">
-        <image src="https://wqdnb.com/static/miniProduct/1-1.png" class="img"></image>
+
+    <view class="view" bind:tap="newSub01" wx:for="{{productList}}" wx:key="*this" data-sid="{{item.sid}}" data-img="{{item.img}}" data-title="{{item.title}}" data-description="{{item.description}}" data-selfprice="{{item.selfPrice}}" data-teamprice="{{item.teamPrice}}" >
+        <image src="{{item.thumbnail}}" class="img"></image>
         <view class="info">
-            <text class="title">枫岭探茗寻迹，宋韵点茶</text>
+            <text class="title">{{item.title}}</text>
             <text class="desc"></text>
             <view class="price">
-                <text class="new-price">￥129.9</text>
+                <text class="new-price">￥{{item.teamPrice}}</text>
                 <view class="old-price">
-                    <text>￥999</text>
+                    <text>￥{{item.selfPrice}}</text>
                     <text class="line"></text>
                 </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub02">
-        <image src="https://wqdnb.com/static/miniProduct/2-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">传越之韵·品十八相送</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥299</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub03">
-        <image src="https://wqdnb.com/static/miniProduct/3-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">游文听诗，赛仙居</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥158.8</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub04">
-        <image src="https://wqdnb.com/static/miniProduct/4-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">青瓷传承，艺匠心手</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥136.6</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub05">
-        <image src="https://wqdnb.com/static/miniProduct/5-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">大陈岛红潮启航</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥520.1</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub06">
-        <image src="https://wqdnb.com/static/miniProduct/6-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">绒华绽放，非遗之旅</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥126.9</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub07">
-        <image src="https://wqdnb.com/static/miniProduct/7-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">拓古迹寻古豫，我用书法串古今</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥166.6</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
-            </view>
-        </view>
-    </view>
-    <view class="view" bind:tap="sub08">
-        <image src="https://wqdnb.com/static/miniProduct/8-1.png" class="img"></image>
-        <view class="info">
-            <text class="title">赓续薪火，学秀松</text>
-            <text class="desc"></text>
-            <view class="price">
-                <text class="new-price">￥188.8</text>
-                <view class="old-price">
-                    <text>￥999</text>
-                    <text class="line"></text>
-                </view>
-                <text class="seller">已售999+</text>
+                <text class="seller">已售99+</text>
             </view>
         </view>
     </view>
